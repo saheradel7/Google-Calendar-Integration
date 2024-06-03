@@ -1,3 +1,4 @@
+from typing import Iterable
 from django.db import models
 from django.core.validators import MaxValueValidator , MinValueValidator
 from datetime import datetime
@@ -50,3 +51,4 @@ class Event(models.Model):
 
     def __str__(self):
         return self.title
+    
