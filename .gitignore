@@ -1,0 +1,25 @@
+# Environments 
+/venv
+
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+#FCM server key
+/church-mobile-app-fa61d-firebase-adminsdk-5wxn2-72eeeab7d1.json
+*.json
+
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+
+# Git files
+.git
+
+#backup files 
+*.bin
+
+*.env
